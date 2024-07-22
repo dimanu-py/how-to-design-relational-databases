@@ -22,3 +22,15 @@ of cars that can be parked there.
 
 Each car can only be drive by one driver at the same time, and the application will allow us to define the period of time that the driver
 will be driving the car.
+
+# 3. Chat Rooms
+
+We want to develop an application where users can create chat rooms and assign different roles to each member of the room. 
+
+Users will register with email and password, and we will also store their full name, and they will have a unique username. Each room has an 
+owner (the user who initially created it), a name, and a description. The room can be configured as private, so only those with an 
+invitation can join. The invitation should be an automatically generated link. If the room is public, no invitation is needed to join.
+
+Room owners can create roles and assign them to other users. For each role, we want to store the name and a description.
+
+Finally, we want to store the date, including hour and minute, of each message sent in each room, as well as the user who sent it.
