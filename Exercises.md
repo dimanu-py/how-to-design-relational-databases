@@ -9,3 +9,16 @@ For each task we want to store the following information:
 - Description
 - State (done or in progress)
 - Due date
+
+# 2. Taxis
+
+We want to store the information about taxi drivers of our province and their cars.
+
+For every driver we want to know its name and phone number. And for every car we want to know the brand, model and plate number. Additionally,
+we need to store images of the cars to follow up on the conditions of the cars in case they have an accident.
+
+In the province there are several garages where the cars will be parked at the end of the day. Each garage has an address and the number
+of cars that can be parked there.
+
+Each car can only be drive by one driver at the same time, and the application will allow us to define the period of time that the driver
+will be driving the car.

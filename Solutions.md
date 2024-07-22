@@ -13,20 +13,26 @@ For each task we want to store the following information:
 <details>
 <summary>Conceptual design</summary>
 
-- We identified two entities: `User` and `Task`.
-- The `User` entity has the following attributes:
-  - `email` -> marked as unique identifier
-  - `password`
-  - `name`
-  - `id` -> marked as unique identifier. We've added this attribute to make it easier to reference the user in the future.
-- The `Task` entity has the following attributes:
-    - `title`
-    - `description`
-    - `due_date`
-    - `id` -> marked as unique identifier. We've added this attribute to make it easier to reference the task in the future.
-- The `User` entity can have from 0 to n tasks associated with it. 
-- The `Task` entity can have only one user associated with it.
-
 <img style="width: 100%;" src="./diagrams/conceptual/1_task_lists.png">
+
+</details>
+
+# 2. Taxis
+
+We want to store the information about taxi drivers of our province and their cars.
+
+For every driver we want to know its name and phone number. And for every car we want to know the brand, model and plate number. Additionally,
+we need to store images of the cars to follow up on the conditions of the cars in case they have an accident.
+
+In the province there are several garages where the cars will be parked at the end of the day. Each garage has an address and the number
+of cars that can be parked there.
+
+Each car can only be drive by one driver at the same time, and the application will allow us to define the period of time that the driver
+will be driving the car.
+
+<details>
+<summary>Conceptual design</summary>
+
+<img style="width: 100%;" src="./diagrams/conceptual/2_taxis.png">
 
 </details>
