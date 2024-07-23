@@ -34,3 +34,16 @@ invitation can join. The invitation should be an automatically generated link. I
 Room owners can create roles and assign them to other users. For each role, we want to store the name and a description.
 
 Finally, we want to store the date, including hour and minute, of each message sent in each room, as well as the user who sent it.
+
+# 4. Insurance Company
+
+Our company needs to store data about its clients and the insurance policies they have acquired. For each client, we want to know their 
+identity document number and full name.
+
+The insurance policies can cover repair expenses in case of damages to properties (houses, apartments, etc.) or vehicles. In the case of 
+properties, we are interested in storing the total square meters of the property as well as its address, while for vehicles we want to 
+store their purchase price and license plate number. This information will be used to calculate the annual cost of the insurance that the 
+client will need to pay.
+
+The client will be able to choose the percentage of the total repair expenses that the insurance will cover when contracting it, for 
+example, 40%. This data will also be necessary to calculate the annual price.
