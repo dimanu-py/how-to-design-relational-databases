@@ -92,3 +92,23 @@ to store this information.
 <img style="width: 100%;" src="./diagrams/conceptual/5_departments_and_employees.png">
 
 </details>
+
+# 6. Social Network
+
+We are going to develop an application similar to Instagram where users can upload posts to their profile and follow other users.
+
+Users will register with an email and password, but they will need to choose a unique username and a profile picture (the picture is 
+optional) to complete the registration. If the data is valid, a profile will be automatically created for them upon registration.
+
+A user can follow other users’ profiles to see their content and can upload posts to their own profile for others to see. Each post can 
+have a maximum of 10 images, will also have an optional description, and we will store the post’s creation date.
+
+Users will be able to write comments on other users’ posts or on their own posts. For each comment, we are interested in storing the text 
+and the date it was published.
+
+<details>
+<summary>Conceptual design</summary>
+
+<img style="width: 100%;" src="./diagrams/conceptual/6_social_network.png">
+
+</details>
