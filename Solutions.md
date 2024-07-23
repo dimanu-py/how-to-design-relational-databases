@@ -112,3 +112,31 @@ and the date it was published.
 <img style="width: 100%;" src="./diagrams/conceptual/6_social_network.png">
 
 </details>
+
+# Challenge: Ecommerce
+
+We want to create a marketplace similar to Amazon where users can create stores and sell their products online. Users will register with an 
+email and password, and we will also store their full name.
+
+For each store, we want to store its name and the user it belongs to, as well as the products it sells. For each product, we will store its
+name, a description, the current stock, the current price, and the current discount. Additionally, some products may have different sizes 
+and colors (for example, a monitor may be available in different resolutions and sizes), so we want to allow users to store this information. 
+Finally, each product will have at least one image or several. Products are unique to each store, meaning that even if multiple stores sell 
+the same product, each store has to create it separately in the application and add its name, images, etc.
+
+Users, in addition to selling, can buy products from other stores. To do this, they will need to create an order in which we will store the 
+products included, the quantity of each product, the color and size of each product (if applicable), the price of each product (since it 
+can change in the future), and the discount applied (which can also change in the future). We will also calculate the total purchase price 
+and add an invoice number to be able to send it to the buyer later.
+
+Additionally, we need to know where to send the package, so users can associate multiple shipping addresses with their account and choose 
+one when creating an order. The address will consist of the following fields: country, state/province, city, street, number, and optionally,
+unit (apartment number, door, etc.). We will store this address along with the other order fields. Finally, since the order may take several
+days to be prepared, shipped, and delivered, we want to store its status (“processing,” “shipped,” “delivered,” “canceled”).
+
+<details>
+<summary>Conceptual design</summary>
+
+<img style="width: 100%;" src="./diagrams/conceptual/challenge_ecommerce.png">
+
+</details>
