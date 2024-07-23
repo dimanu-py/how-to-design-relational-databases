@@ -75,3 +75,20 @@ example, 40%. This data will also be necessary to calculate the annual price.
 <img style="width: 100%;" src="./diagrams/conceptual/4_insurance_company.png">
 
 </details>
+
+# 5. Departments and Employees
+
+Our company has several offices located in different buildings, and each of them contains various departments. The buildings have an 
+associated number, which is unique among buildings in the same city but can be repeated for buildings in different cities.
+
+For the departments, we want to store their name, which is unique, their department number, which is also unique, and their annual budget. 
+Additionally, we want to know in which department each employee works, for which we have their employee number, which is unique within each 
+department but can be repeated for employees in different departments. Finally, employees can be in charge of other employees, and we want 
+to store this information.
+
+<details>
+<summary>Conceptual design</summary>
+
+<img style="width: 100%;" src="./diagrams/conceptual/5_departments_and_employees.png">
+
+</details>

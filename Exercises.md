@@ -47,3 +47,13 @@ client will need to pay.
 
 The client will be able to choose the percentage of the total repair expenses that the insurance will cover when contracting it, for 
 example, 40%. This data will also be necessary to calculate the annual price.
+
+# 5. Departments and Employees
+
+Our company has several offices located in different buildings, and each of them contains various departments. The buildings have an 
+associated number, which is unique among buildings in the same city but can be repeated for buildings in different cities.
+
+For the departments, we want to store their name, which is unique, their department number, which is also unique, and their annual budget. 
+Additionally, we want to know in which department each employee works, for which we have their employee number, which is unique within each 
+department but can be repeated for employees in different departments. Finally, employees can be in charge of other employees, and we want 
+to store this information.
