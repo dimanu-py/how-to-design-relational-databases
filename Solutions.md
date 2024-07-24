@@ -44,6 +44,13 @@ will be driving the car.
 
 </details>
 
+<details>
+<summary>Logic design</summary>
+
+<img style="width: 100%;" src="./diagrams/logic/2_taxis.png">
+
+</details>
+
 # 3. Chat Rooms
 
 We want to develop an application where users can create chat rooms and assign different roles to each member of the room. 
