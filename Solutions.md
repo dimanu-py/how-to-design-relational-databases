@@ -121,6 +121,13 @@ to store this information.
 
 </details>
 
+<details>
+<summary>Logic design</summary>
+
+<img style="width: 100%;" src="./diagrams/logic/5_departments_and_employees.png">
+
+</details>
+
 # 6. Social Network
 
 We are going to develop an application similar to Instagram where users can upload posts to their profile and follow other users.
