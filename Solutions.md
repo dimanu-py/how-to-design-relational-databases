@@ -97,6 +97,13 @@ example, 40%. This data will also be necessary to calculate the annual price.
 
 </details>
 
+<details>
+<summary>Logic design</summary>
+
+<img style="width: 100%;" src="./diagrams/logic/4_insurance_company.png">
+
+</details>
+
 # 5. Departments and Employees
 
 Our company has several offices located in different buildings, and each of them contains various departments. The buildings have an 
