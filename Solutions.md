@@ -17,6 +17,13 @@ For each task we want to store the following information:
 
 </details>
 
+<details>
+<summary>Logic design</summary>
+
+<img style="width: 100%;" src="./diagrams/logic/1_task_lists.png">
+
+</details>
+
 # 2. Taxis
 
 We want to store the information about taxi drivers of our province and their cars.
