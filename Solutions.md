@@ -70,6 +70,13 @@ Finally, we want to store the date, including hour and minute, of each message s
 
 </details>
 
+<details>
+<summary>Logic design</summary>
+
+<img style="width: 100%;" src="./diagrams/logic/3_chat_rooms.png">
+
+</details>
+
 # 4. Insurance Company
 
 Our company needs to store data about its clients and the insurance policies they have acquired. For each client, we want to know their 
