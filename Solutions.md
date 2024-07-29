@@ -148,6 +148,13 @@ and the date it was published.
 
 </details>
 
+<details>
+<summary>Logic design</summary>
+
+<img style="width: 100%;" src="./diagrams/logic/6_social_network.png">
+
+</details>
+
 # Challenge: Ecommerce
 
 We want to create a marketplace similar to Amazon where users can create stores and sell their products online. Users will register with an 
