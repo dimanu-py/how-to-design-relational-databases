@@ -182,3 +182,10 @@ days to be prepared, shipped, and delivered, we want to store its status (“pro
 <img style="width: 100%;" src="./diagrams/conceptual/challenge_ecommerce.png">
 
 </details>
+
+<details>
+<summary>Logic design</summary>
+
+<img style="width: 100%;" src="./diagrams/logic/challenge_ecommerce.png">
+
+</details>
